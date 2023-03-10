@@ -73,6 +73,63 @@ check string is palindrome or not
 
 
 
+		1) Immutable		2) Mutable
+			String			StringBuffer
+						StringBuilder
+			concate----------->append   
+					   reverse		
+
+String name = "royal";// 5
+//             01234	
+
+SOP(name.charAt(0));// r
+SOP(name.charAt(1));// o
+SOP(name.charAt(2));// y
+SOP(name.charAt(3));// a
+SOP(name.charAt(4));// l
+
+
+String name1="royal";
+String name2="royal";
+
+
+name1.compareTo(name2)
+
+// same---0
+// pos/neg----ASCII
+
+
+isEmptry
+
+null
+
+isBlank
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
