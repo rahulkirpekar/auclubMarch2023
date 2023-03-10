@@ -1,0 +1,88 @@
+String---Multiple Characters
+-----------------------------
+
+		Two types of Operation on String type of Data
+		----------------------------------------------
+1) Immutable	 		2) Mutable 
+-------------			------------
+String class			---> StringBuilder(C)
+				---> StringBuffer(C)
+
+1) concate()--------------------1) append
+				2) reverse
+
+
+1) Immutable Way[String]:-
+-------------------------
+
+1) "By String Literals way" :- "HEAP"---->["String Constant Pool"]
+-----------------------------
+		String name1 = "royal";
+		String name2 = "royal";
+		String name3 = "test";
+
+		System.out.println(name1==name2);// true
+		System.out.println(name1==name3);// false
+
+
+		System.out.println(name1.equals(name2));// true
+		System.out.println(name1.equals(name3));// false
+
+
+
+
+2) By new keyword way:-
+---------------------
+
+	String name1 = new String("royal");
+	String name2 = new String("rakesh");
+	String name3 = new String("royal");
+
+
+
+
+String Objects equality:-
+-------------------------
+1) ==[references]
+2) equals		
+
+
+
+1) charAt
+2) length
+3) single for loop
+
+scan one string from console 
+and 
+check string is palindrome or not
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
