@@ -1,0 +1,24 @@
+IO ---write/read --->(DATA)--Permanent--->file---HDD
+----------------
+Data---variable/objects--applocation close---lose/delete
+----------------------------------------------------------
+Stream - Buffer Area
+
+I - InputStream(reading Data from file)
+O - OutputStream(writting data into file)
+E - ErrorStream---errorlog
+----------------------------------------------------------
+Data---[Primitive / String / (class--User Defined DataType)Objects] 
+
+1) Two way to wite data into file:-
+----------------------------------
+1) Byte Oriented Way Write/read
+	---> Data---[Primitive / String / (class--User Defined DataType)Objects] 
+
+
+2) character Oriented data write/read
+-------------------------------------------
+Data---String
+ 
+
+
